@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Presale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="navdiv">
+
+      <div> <h1>Token Presale</h1> </div>
+
+      <ul>
+        <li><a href="home.html" > Home </a></li>
+        <li><a href="buypresale.html"> Buy </a></li>
+        <li><a href="claimpresale.html"> Claim </a></li>
+        <li><a href="sellpresale.html"> Sell </a></li>
+      </ul>
+        
+    </div>
+  </nav>
+
+  <div class="maindiv">
+    
+    <div class="connect-group">
+      <button onclick="connectWallet()" class="connectBtn">Connect Wallet</button>
+      <button onclick="disconnectWallet()"class = "disconnectBtn"> Disconnect </button>
+      <p id="walletAddress"> Wallet Address: </p>
+    </div>
+
+    <h4> Token Balance: <span id="tokenBalance">0</span></h4>
+
+    <input type="number" id="ethAmount" placeholder="Enter ETH amount">
+
+    <button onclick="claimTokens()" class="buyBtn">Claim Tokens</button>  
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"type="application/javascript" ></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
