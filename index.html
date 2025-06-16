@@ -11,11 +11,10 @@
   
   <nav>
     <div class="navdiv">
-
-      <div> <h1>Token Presale</h1> </div>
+      <h1>Token Presale</h1>
 
       <ul>
-        <li><a href="home.html" > Home </a></li>
+        <li><a href="index.html" > Home </a></li>
         <li><a href="buypresale.html"> Buy </a></li>
         <li><a href="claimpresale.html"> Claim </a></li>
         <li><a href="sellpresale.html"> Sell </a></li>
@@ -25,24 +24,112 @@
   </nav>
 
 
-  <div class="homebodyDiv">
+<div class="homebodyDiv">
   <!-- Hero Section -->
   <header class="hero">
     <h1>Welcome to the Future of Finance</h1>
     
-    <p>Join our token presale and be part of a decentralised revolution.</p>
+    <p>Simple. Transparent. Accessible </p>
     
-    <button id="connectBtn">Connect Wallet</button>
+    <button id="connectBtn"><a href="buypresale.html" style="color: white; text-decoration: none;">
+      Connect Wallet</a></button>
   </header>
 
   <!-- About Section -->
   <section class="about">
     <h2>About the Presale</h2>
-    <p>Our token is designed to empower the community and bring real utility to DeFi ecosystems. With a fair distribution model and a strong roadmap, we’re just getting started.</p>
+    <p>Our token is designed to empower the community and bring real utility to DeFi ecosystems. With a fair distribution model and a strong roadmap, we're just getting started.</p>
+  </section>
+
+  <!-- Project Overview -->
+  <section>
+    <h2>🪙 Tokenomics</h2>
+    <p>
+      Our native token fuels the ecosystem, designed with transparency, utility, and sustainability in mind.
+    </p>
+    <ul>
+      <li> Total Supply: 1,000,000 tokens</li>
+      <li>Presale Allocation: 60%</li>
+      <li>Liquidity & Reserves: 20%</li>
+      <li>Team & Development: 10%</li>
+      <li>Community Incentives: 10%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🎯 Project Goals and Objectives</h2>
+    <p>Our mission is to democratise early token access, giving
+      users the opportunity to participate before public launch. 
+      We aim to solve the problem of exclusivity and build a community-driven 
+      presale process.
+    </p>
+    
+    <ul>
+      <li>Goal: Create a simple platform to buy, track, and manage token presales. </li>
+      <li>Key Deliverables: A smart contract, user-friendly frontend, and live blockchain interaction. </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📋 Scope and Requirements</h2>
+    <ul>
+      <li>Included Features: Connect wallet, buy tokens, view balance, claim/sell options with a secure lockup mechanism.</li>
+      <li>Tech Stack: Solidity, Hardhat, HTML/CSS/JS.</li>
+      <li> Requirements: integration with MetaMask, smart contract deployment, and real-time transaction handling.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🏗️ Design and Architecture</h2>
+    <p>The dApp interacts directly with the blockchain via Web3 providers like MetaMask.</p>
+    <ul>
+      <li> Smart Contract: Secure, efficient, and gas-optimised.</li>
+      <li>Frontend: Simple UI with wallet integration and real-time interaction.</li>
+      <li>Interaction Flow: Connect wallet → Buy tokens → View balance → Claim/Sell.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>⏳ Timeline and Milestones</h2>
+    <ul>
+      <li>✅ Smart contract development</li>
+      <li>✅ Deployment & verification</li>
+      <li>✅ Frontend integration</li>
+      <li>✅ UI/UX polishing</li>
+      <li>✅ User testing</li>
+      <li>🔜 Launch</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>⚠️ Challenges and Solutions</h2>
+    <p>Challenges include gas efficiency and contract security. We're addressing them through contract auditing, low-gas design patterns, and access control using "onlyAdmin" modifiers.</p>
+  </section>
+
+  <section>
+    <h2>📈 Progress Updates and Feedback</h2>
+    <p>Progress is being tracked regularly. Community feedback is collected via Twitter and other social media community groups and integrated into upcoming releases.</p>
+  </section>
+
+  <section>
+    <h2>🧪 Testing and Quality Assurance</h2>
+    <ul>
+      <li>Unit and integration tests are written in Foundry to ensure contract correctness. All user inputs are validated on both frontend and backend.</li>
+      <li>Manual QA checks in browser + contract explorer.</li>
+    </ul>
+    </section>
+
+  <section>
+    <h2>🚀 Deployment and Maintenance</h2>
+    <ul>
+      <li>Deployment: On Binance Smart Chain Testnet for now.</li>
+      <li>Post-launch: Routine monitoring, bug fixes, and feature updates as needed.</li>
+      <li>Mitigation: Audits, community engagement + social awareness, and safe transaction patterns.</li>
+    </ul>
   </section>
 
   <!-- Features -->
-  <section class="features">
+  <section>
     <h2>Why Join?</h2>
     <ul>
       <li>🪙 Earn tokens at a fixed rate</li>
@@ -53,24 +140,25 @@
   </section>
 
   <!-- CTA -->
-  <section class="cta">
+  <div class="cta">
     <h2>Get Started Now</h2>
     
     <button class="buyBtn"><a href="buypresale.html"> Buy Tokens </a></button>
         
     <p>Make sure your wallet is connected to proceed.</p>
-  </section>
+    <p>Join our token presale and be part of a decentralised revolution.</p>
+  </div>
 
   <footer>
     <p>&copy; 2025 TokenPresale Project. All rights reserved.</p>
   </footer>
 
-  </div>
+</div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"type="application/javascript" ></script>
+<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"type="application/javascript" ></script>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
