@@ -1,6 +1,29 @@
 * {
   font-family: robotics;
 }
+
+media query {max-width: 600px;
+  body {
+    font-size: 14px;
+  }
+  
+  .navdiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .maindiv {
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+
 body {
     background-color: #f3f4f6;
     font-family:robotics;
